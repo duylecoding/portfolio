@@ -42,15 +42,6 @@
           }
         }
       },
-      "log4net/2.0.5": {
-        "type": "package",
-        "compile": {
-          "lib/net45-full/log4net.dll": {}
-        },
-        "runtime": {
-          "lib/net45-full/log4net.dll": {}
-        }
-      },
       "Microsoft.ApplicationInsights/2.4.0": {
         "type": "package",
         "dependencies": {
@@ -4757,19 +4748,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Useful.LoggerFactory.Log4net/1.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
-          "log4net": "2.0.5"
-        },
-        "compile": {
-          "lib/net46/Useful.LoggerFactory.Log4net.dll": {}
-        },
-        "runtime": {
-          "lib/net46/Useful.LoggerFactory.Log4net.dll": {}
-        }
-      },
       "WindowsAzure.Storage/8.1.4": {
         "type": "package",
         "dependencies": {
@@ -4804,32 +4782,6 @@
         "runtimes/win-arm/native/libuv.dll",
         "runtimes/win-x64/native/libuv.dll",
         "runtimes/win-x86/native/libuv.dll"
-      ]
-    },
-    "log4net/2.0.5": {
-      "sha512": "kud7C8AS/Wthmen3kufEwvgRcvtDr87dVdZdZYjWOey3r5FpW6MR35Luv78u+HIYXC5V1tk7wveT1mZGWPa7Cw==",
-      "type": "package",
-      "path": "log4net/2.0.5",
-      "files": [
-        ".signature.p7s",
-        "lib/net10-full/log4net.dll",
-        "lib/net10-full/log4net.xml",
-        "lib/net11-full/log4net.dll",
-        "lib/net11-full/log4net.xml",
-        "lib/net20-full/log4net.dll",
-        "lib/net20-full/log4net.xml",
-        "lib/net35-client/log4net.dll",
-        "lib/net35-client/log4net.xml",
-        "lib/net35-full/log4net.dll",
-        "lib/net35-full/log4net.xml",
-        "lib/net40-client/log4net.dll",
-        "lib/net40-client/log4net.xml",
-        "lib/net40-full/log4net.dll",
-        "lib/net40-full/log4net.xml",
-        "lib/net45-full/log4net.dll",
-        "lib/net45-full/log4net.xml",
-        "log4net.2.0.5.nupkg.sha512",
-        "log4net.nuspec"
       ]
     },
     "Microsoft.ApplicationInsights/2.4.0": {
@@ -12735,19 +12687,6 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Useful.LoggerFactory.Log4net/1.0.1": {
-      "sha512": "ZVn4Rq6ehnx1o+x8qhDIhrZCp8b1MrbT2d0tTYaFJI5QUko3gyfE7m77Z9Km1IZrhvmzAUcWhEEJHQtzLzK5qQ==",
-      "type": "package",
-      "path": "useful.loggerfactory.log4net/1.0.1",
-      "files": [
-        ".signature.p7s",
-        "lib/net451/Useful.LoggerFactory.Log4net.dll",
-        "lib/net452/Useful.LoggerFactory.Log4net.dll",
-        "lib/net46/Useful.LoggerFactory.Log4net.dll",
-        "useful.loggerfactory.log4net.1.0.1.nupkg.sha512",
-        "useful.loggerfactory.log4net.nuspec"
-      ]
-    },
     "WindowsAzure.Storage/8.1.4": {
       "sha512": "W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "type": "package",
@@ -12775,7 +12714,6 @@
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.8",
       "Microsoft.NETCore.App >= 2.0.0",
-      "Useful.LoggerFactory.Log4net >= 1.0.1",
       "microsoft.aspnetcore.staticfiles >= 2.2.0"
     ]
   },
@@ -12829,10 +12767,6 @@
             "version": "[2.0.0, )",
             "autoReferenced": true
           },
-          "Useful.LoggerFactory.Log4net": {
-            "target": "Package",
-            "version": "[1.0.1, )"
-          },
           "microsoft.aspnetcore.staticfiles": {
             "target": "Package",
             "version": "[2.2.0, )"
@@ -12845,27 +12779,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'log4net 2.0.5' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "log4net",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Useful.LoggerFactory.Log4net 1.0.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Useful.LoggerFactory.Log4net",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

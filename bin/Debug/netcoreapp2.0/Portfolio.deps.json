@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "d36ba885b527088f18a01476a2b1c6fcefcd561d"
+    "signature": "23a08d32bbc7f47127c3a606b3014517dbdc0023"
   },
   "compilationOptions": {
     "defines": [
@@ -25,7 +25,6 @@
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.8",
           "Microsoft.NETCore.App": "2.0.0",
-          "Useful.LoggerFactory.Log4net": "1.0.1",
           "Microsoft.AspNetCore.StaticFiles": "2.2.0"
         },
         "runtime": {
@@ -72,14 +71,6 @@
             "rid": "win-x86",
             "assetType": "native"
           }
-        }
-      },
-      "log4net/2.0.5": {
-        "runtime": {
-          "lib/net45-full/log4net.dll": {}
-        },
-        "compile": {
-          "lib/net45-full/log4net.dll": {}
         }
       },
       "Microsoft.ApplicationInsights/2.4.0": {
@@ -3805,18 +3796,6 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
-      "Useful.LoggerFactory.Log4net/1.0.1": {
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
-          "log4net": "2.0.5"
-        },
-        "runtime": {
-          "lib/net46/Useful.LoggerFactory.Log4net.dll": {}
-        },
-        "compile": {
-          "lib/net46/Useful.LoggerFactory.Log4net.dll": {}
-        }
-      },
       "WindowsAzure.Storage/8.1.4": {
         "dependencies": {
           "Microsoft.Data.OData": "5.8.2",
@@ -4021,13 +4000,6 @@
       "sha512": "sha512-GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "path": "libuv/1.10.0",
       "hashPath": "libuv.1.10.0.nupkg.sha512"
-    },
-    "log4net/2.0.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kud7C8AS/Wthmen3kufEwvgRcvtDr87dVdZdZYjWOey3r5FpW6MR35Luv78u+HIYXC5V1tk7wveT1mZGWPa7Cw==",
-      "path": "log4net/2.0.5",
-      "hashPath": "log4net.2.0.5.nupkg.sha512"
     },
     "Microsoft.ApplicationInsights/2.4.0": {
       "type": "package",
@@ -6023,13 +5995,6 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
-    },
-    "Useful.LoggerFactory.Log4net/1.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ZVn4Rq6ehnx1o+x8qhDIhrZCp8b1MrbT2d0tTYaFJI5QUko3gyfE7m77Z9Km1IZrhvmzAUcWhEEJHQtzLzK5qQ==",
-      "path": "useful.loggerfactory.log4net/1.0.1",
-      "hashPath": "useful.loggerfactory.log4net.1.0.1.nupkg.sha512"
     },
     "WindowsAzure.Storage/8.1.4": {
       "type": "package",
