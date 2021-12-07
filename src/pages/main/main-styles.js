@@ -1,11 +1,10 @@
-import { Flex } from "@chakra-ui/layout";
 import styled from "styled-components";
 import { SECONDARY } from "../../shared/colors";
 
 export const Background = styled.div`
   background-color: ${SECONDARY};
   margin: -8px;
-  height: calc(100vh - 68px);
+  height: calc(100vh - 72px);
 `;
 
 export const CardContainer = styled.div`

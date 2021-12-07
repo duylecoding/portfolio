@@ -1,6 +1,6 @@
 import { Flex, Text } from "@chakra-ui/layout";
 import styled from "styled-components";
-import { SECONDARY } from "../../shared/colors";
+import { B_GRAY, SECONDARY } from "../../shared/colors";
 import { MAIN_PRINT } from "../../shared/typefaces";
 
 export const NavBar = styled(Flex)`
@@ -18,4 +18,5 @@ export const Title = styled(Text)`
   font-weight: bold;
   margin: 0px;
   font-size: 32px;
+  text-shadow: 1px 1px ${B_GRAY};
 `;
