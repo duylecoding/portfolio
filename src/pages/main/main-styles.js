@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { SECONDARY } from "../../shared/colors";
 
 export const Background = styled.div`
-  background-color: ${SECONDARY};
   margin: -8px;
   height: calc(100vh - 72px);
 `;

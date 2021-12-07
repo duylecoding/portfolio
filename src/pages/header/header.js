@@ -1,10 +1,13 @@
-import { Title, NavBar } from "./header-styles";
+import { Title, NavBar, Break } from "./header-styles";
 
 function Header({ title }) {
   return (
-    <NavBar>
-      <Title>{title}</Title>
-    </NavBar>
+    <>
+      <NavBar>
+        <Title>{title}</Title>
+      </NavBar>
+      <Break />
+    </>
   );
 }
 

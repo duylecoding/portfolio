@@ -4,7 +4,7 @@ import { A_GRAY, B_GRAY, D_GRAY, TERTIARY } from "../../shared/colors";
 
 export const FooterNav = styled(Flex)`
   height: 20px;
-  background-color: ${A_GRAY};
+  background-color: ${TERTIARY};
   margin: -8px;
   margin-top: 8px;
   padding: 4px 12px 12px 12px;
