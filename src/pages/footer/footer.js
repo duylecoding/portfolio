@@ -1,5 +1,4 @@
 import { Text } from "@chakra-ui/layout";
-import { Link } from "react-router-dom";
 import { FooterNav, LinkBox, FooterLink } from "./footer-styles";
 
 function Footer({}) {
@@ -7,10 +6,12 @@ function Footer({}) {
     <FooterNav>
       <Text color="white">© Duy Le</Text>
       <LinkBox>
-        <FooterLink to="https://www.linkedin.com/in/duyhale/">
+        <FooterLink href="https://www.linkedin.com/in/duyhale/" target="_blank">
           LinkedIn
         </FooterLink>
-        <FooterLink to="https://github.com/duylecoding">GitHub</FooterLink>
+        <FooterLink href="https://github.com/duylecoding" target="_blank">
+          GitHub
+        </FooterLink>
       </LinkBox>
     </FooterNav>
   );

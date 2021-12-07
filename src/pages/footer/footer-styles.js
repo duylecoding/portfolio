@@ -1,10 +1,9 @@
-import { Box, Flex, Text } from "@chakra-ui/layout";
-import { Link } from "react-router-dom";
+import { Flex } from "@chakra-ui/layout";
 import styled from "styled-components";
 import { TERTIARY } from "../../shared/colors";
 
 export const FooterNav = styled(Flex)`
-  height: 24px;
+  height: 20px;
   background-color: ${TERTIARY};
   margin: -8px;
   margin-top: 8px;
@@ -21,7 +20,7 @@ export const LinkBox = styled(Flex)`
   justify-content: space-between;
 `;
 
-export const FooterLink = styled(Link)`
+export const FooterLink = styled.a`
   margin: 0px 16px 0px 16px;
   color: white;
   font-weight: bold;

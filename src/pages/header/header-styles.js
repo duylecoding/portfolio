@@ -1,11 +1,11 @@
 import { Flex, Text } from "@chakra-ui/layout";
 import styled from "styled-components";
-import { TERTIARY } from "../../shared/colors";
+import { SECONDARY } from "../../shared/colors";
 import { MAIN_PRINT } from "../../shared/typefaces";
 
 export const NavBar = styled(Flex)`
   height: 48px;
-  background-color: ${TERTIARY};
+  background-color: ${SECONDARY};
   margin: -8px;
   margin-bottom: 8px;
   padding: 12px;
