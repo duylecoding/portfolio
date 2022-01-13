@@ -1,4 +1,4 @@
-import { Container, ShinyText } from "./card-styles";
+import { Container } from "./card-styles";
 
 function Card({ content }) {
   return <Container>{content}</Container>;
