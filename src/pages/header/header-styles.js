@@ -15,6 +15,7 @@ export const Title = styled(Text)`
   color: ${SECONDARY};
   font-weight: bold;
   margin: 0px;
+  margin-left: 25%;
   font-size: 32px;
 `;
 
