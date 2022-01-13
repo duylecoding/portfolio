@@ -30,4 +30,3 @@ export const Container = styled(Flex)`
     font-size: 32px;
   }
 `;
-y;
