@@ -10,7 +10,7 @@ const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/*" element={<App />} />
       <Route path="/header" element={<Header />} />
       <Route path="/footer" element={<Footer />} />
     </Routes>
