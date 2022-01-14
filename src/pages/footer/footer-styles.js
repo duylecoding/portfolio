@@ -1,12 +1,6 @@
 import { Flex } from "@chakra-ui/layout";
 import styled from "styled-components";
-import {
-  A_GRAY,
-  B_GRAY,
-  D_GRAY,
-  SECONDARY,
-  TERTIARY,
-} from "../../shared/colors";
+import { SECONDARY } from "../../shared/colors";
 
 export const FooterNav = styled(Flex)`
   height: 20px;
