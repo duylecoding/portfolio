@@ -19,6 +19,15 @@ export const Title = styled(Text)`
   font-size: 32px;
 `;
 
+export const Role = styled(Text)`
+  font-family: ${MAIN_PRINT};
+  color: ${PRIMARY};
+  font-weight: bold;
+  margin: 0px;
+  font-size: 32px;
+  margin-left: 25%;
+`;
+
 export const Break = styled.hr`
   border: 1px solid ${SECONDARY};
   width: 50%;
