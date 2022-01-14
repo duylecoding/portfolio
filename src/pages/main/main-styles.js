@@ -1,13 +1,23 @@
 import styled from "styled-components";
-import { SECONDARY } from "../../shared/colors";
+import { Text, Flex } from "@chakra-ui/layout";
+import { PRIMARY } from "../../shared/colors";
 
 export const Background = styled.div`
   margin: -8px;
   height: calc(100vh - 72px);
 `;
 
-export const CardContainer = styled.div`
-  display: grid;
-  grid-template-columns: 30vw 30vw;
-  grid-row: auto auto;
+export const CardContainer = styled(Flex)`
+  justify-content: center;
+  align-items: center;
+`;
+
+export const AboutMe = styled(Text)`
+  font-size: 2em;
+`;
+
+export const More = styled(Text)`
+  font-size: 1.5em;
+  margin-top: -16px;
+  color: ${PRIMARY};
 `;

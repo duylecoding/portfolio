@@ -1,6 +1,6 @@
 import { Flex } from "@chakra-ui/layout";
 import styled from "styled-components";
-import { B_GRAY, PRIMARY } from "../colors";
+import { B_GRAY, TERTIARY } from "../colors";
 import { SECONDARY_PRINT } from "../typefaces";
 import { MEDIUM } from "../screensizes";
 
@@ -9,7 +9,7 @@ export const Container = styled(Flex)`
   align-items: center;
   width: 25vw;
   height: 30vh;
-  background-color: ${PRIMARY};
+  background-color: ${TERTIARY};
   margin: 16px;
   padding: 16px;
 
