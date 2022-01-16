@@ -2,6 +2,7 @@ import { Flex, Text } from "@chakra-ui/layout";
 import styled from "styled-components";
 import { B_GRAY, PRIMARY, SECONDARY } from "../../shared/colors";
 import { MAIN_PRINT } from "../../shared/typefaces";
+import { MEDIUM } from "../../shared/screensizes";
 
 export const NavBar = styled(Flex)`
   height: 48px;
@@ -17,6 +18,10 @@ export const Title = styled(Text)`
   margin: 0px;
   margin-left: 25%;
   font-size: 32px;
+
+  @media (max-width: ${MEDIUM}px) {
+    font-size: 24px;
+  }
 `;
 
 export const Role = styled(Text)`
@@ -26,6 +31,11 @@ export const Role = styled(Text)`
   margin: 0px;
   font-size: 32px;
   margin-left: 25%;
+
+  @media (max-width: ${MEDIUM}px) {
+    font-size: 24px;
+    margin-left: 22%;
+  }
 `;
 
 export const Break = styled.hr`

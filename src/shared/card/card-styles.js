@@ -10,7 +10,7 @@ export const Container = styled(Flex)`
   width: 25vw;
   height: 30vh;
   background-color: ${TERTIARY};
-  margin: 16px;
+  margin: 36px 20px 36px 20px;
   padding: 16px;
 
   font-family: ${SECONDARY_PRINT}, sans-serif;

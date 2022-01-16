@@ -1,7 +1,7 @@
 import { Container } from "./card-styles";
 
-function Card({ content }) {
-  return <Container>{content}</Container>;
+function Card({ content, show, ...rootDOMAttributes }) {
+  return show ? <Container {...rootDOMAttributes}>{content}</Container> : <></>;
 }
 
 export default Card;
